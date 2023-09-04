@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+}
+.container-main
+{
+    position: relative;
+    max-width: 1920px;
+    max-height: 860px;
+    height: 860px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar
+{
+    position: absolute;
+    max-width: 1296px;
+    width: 67.5%;
+    height: 110px;
+    max-height: 110px;
+    background-color: aliceblue;
+    display: ;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+.main-photo
+{
+    position: absolute;
+    display: block;
+    max-height: 750px;
+    height: 750px;
+    max-width: 1920px;
+    width: 100%;
+    top: 110px;
+}
