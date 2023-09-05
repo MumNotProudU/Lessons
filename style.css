@@ -31,14 +31,13 @@
     max-height: 750px;
     height: 750px;
     max-width: 1920px;
-    width: 100%;
     top: 110px;
 }
 .main-text
 {
     position: absolute;
     left:16.25%;
-    top: 35%;
+    margin-top: 290px;
     max-width: 526px;
     max-height: 336px;
     height: 44.8%;
@@ -122,5 +121,100 @@
     opacity: 20%;
     outline:none;
     border-bottom: 1px solid #333333;
+}
+.gamb-menu
+{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.main-name
+{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 526px;
+    height: 140px;
+
+
+}
+.main-decription
+{
+    margin-top: 40px;
+    width: 322px;
+    height: 66px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main-about-company
+{
+    gap: 15px;
+    margin-top: 60px;
+    display: inline-flex;
+}
+.main-rect
+{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.square
+{
+    position: absolute;
+    width: 306px;
+    height: 250px;
+    border-radius: 20px;
+    gap: 118px;
+    background-color: rgba(93, 183, 222, 1);
+}
+.sq1
+{
+    top: 223px;
+    left: 972px;
+}
+.sq2
+{
+    top: 223px;
+    left: 1302px;
+}
+.sq3
+{
+    top:497px;
+    left: 972px;
+}
+.sq4
+{
+    top: 497px;
+    left: 1302px;
+}
+.sq-div1
+{
+    padding-left: 35px;
+    padding-top:  30px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+}
+.sq-div2
+{
+    padding-left: 35px;
+    padding-bottom: 30px;
+    padding-top: 118px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
